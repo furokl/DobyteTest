@@ -25,5 +25,11 @@
 
 Для построения решения и готового приложения необходимо запустить `build.bat`.
 
+Не требует прав администратора, основные инструкции:
 ```bat
-build.bat
+rd /s /q .\build
+cmake -G "Visual Studio 17 2022" -A x64 ..
+cmake --build . --config Release
+powershell [create lnk .sln]
+powershell [create lnk .exe]
+```
