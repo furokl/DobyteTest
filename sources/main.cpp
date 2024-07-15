@@ -16,5 +16,8 @@ int main()
     std::cout << "Count of beautiful numbers: " << count << '\n';
     // std::cout << "Time taken: " << duration.count() << " seconds" << '\n';
 
+    std::cout << "Press any key to continue . . . ";
+    (void)std::getchar();
+
     return 0;
 }
