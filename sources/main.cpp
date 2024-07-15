@@ -1,9 +1,20 @@
-#include <iostream>
+﻿#include <iostream>
+// #include <chrono>
+
+#include "sums.h"
+// #include "tosts.h"
 
 int main()
 {
-    std::cout << "Hello World!" << '\n';
+    // printTostLog();
+    
+    // auto start = std::chrono::high_resolution_clock::now();
+    uint64_t count = getAnswer(13);
+    // auto end = std::chrono::high_resolution_clock::now();
+    // std::chrono::duration<double> duration = end - start;
 
-    std::cout << "\nPress any key to continue . . . ";
-    std::cin.get();
+    std::cout << "Count of beautiful numbers: " << count << '\n';
+    // std::cout << "Time taken: " << duration.count() << " seconds" << '\n';
+
+    return 0;
 }
