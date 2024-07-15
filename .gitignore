@@ -1,3 +1,18 @@
+### Custom
+# Shortcurts
+*.lnk
+
+# Build Configuration
+/build
+
+# IDE Rider
+/.idea
+
+# IDE Visual Studio
+/.vs
+/out/build
+
+### Template [github C++]
 # Prerequisites
 *.d
 
